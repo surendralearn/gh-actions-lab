@@ -13,6 +13,6 @@ jobs:
             - name: Failed Step
               run: |
                 echo "It will be success!"
-                exit 0
+                exit 1
             - name: Echo Goodbye
               run: echo "Goodbye, World!"
